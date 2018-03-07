@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['adddescriptor',['addDescriptor',['../class_companion_1_1_model_1_1_processing_1_1_image_hash_model.html#a28850b5b6ab3a5be2bc90bdbe0fcd347',1,'Companion::Model::Processing::ImageHashModel']]],
+  ['addimage',['addImage',['../class_companion_1_1_input_1_1_image.html#adce79b94f8f305c454cc03f491adbcfa',1,'Companion::Input::Image::addImage(std::string imgPath)'],['../class_companion_1_1_input_1_1_image.html#a8523dd93836d49c09f875900ddea9d8b',1,'Companion::Input::Image::addImage(cv::Mat img)'],['../class_companion_1_1_input_1_1_image.html#a4601e78051d3b43471b796ee178a9a53',1,'Companion::Input::Image::addImage(int width, int height, int type, uchar *data)']]],
+  ['addmodel',['addModel',['../class_companion_1_1_processing_1_1_recognition_1_1_hash_recognition.html#af3e2a4fcf590c1611a79ea609d8416e2',1,'Companion::Processing::Recognition::HashRecognition::addModel()'],['../class_companion_1_1_processing_1_1_recognition_1_1_hybrid_recognition.html#a3219006fb81c4e54834212f943b371bf',1,'Companion::Processing::Recognition::HybridRecognition::addModel()'],['../class_companion_1_1_processing_1_1_recognition_1_1_match_recognition.html#a8c0b01af135779ec0bd3198a00a9a1f7',1,'Companion::Processing::Recognition::MatchRecognition::addModel()']]]
+];

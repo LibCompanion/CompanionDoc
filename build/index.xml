@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Build Companion on Companion</title>
-    <link>https://libcompanion.github.io/Companion/build/</link>
+    <link>https://libcompanion.github.io/CompanionDoc/build/</link>
     <description>Recent content in Build Companion on Companion</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-en</language>
     
-	<atom:link href="https://libcompanion.github.io/Companion/build/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://libcompanion.github.io/CompanionDoc/build/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

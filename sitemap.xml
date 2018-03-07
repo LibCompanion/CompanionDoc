@@ -3,32 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://libcompanion.github.io/Companion/build/</loc>
+    <loc>https://libcompanion.github.io/CompanionDoc/build/</loc>
   </url>
   
   <url>
-    <loc>https://libcompanion.github.io/Companion/gettingstarted/</loc>
+    <loc>https://libcompanion.github.io/CompanionDoc/gettingstarted/</loc>
   </url>
   
   <url>
-    <loc>https://libcompanion.github.io/Companion/docs/</loc>
+    <loc>https://libcompanion.github.io/CompanionDoc/docs/</loc>
   </url>
   
   <url>
-    <loc>https://libcompanion.github.io/Companion/categories/</loc>
+    <loc>https://libcompanion.github.io/CompanionDoc/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://libcompanion.github.io/Companion/</loc>
+    <loc>https://libcompanion.github.io/CompanionDoc/</loc>
   </url>
   
   <url>
-    <loc>https://libcompanion.github.io/Companion/docs/objectdetection/</loc>
+    <loc>https://libcompanion.github.io/CompanionDoc/docs/objectdetection/</loc>
   </url>
   
   <url>
-    <loc>https://libcompanion.github.io/Companion/tags/</loc>
+    <loc>https://libcompanion.github.io/CompanionDoc/tags/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['paladincontroller',['PaladinController',['../class_companion_m_r_1_1_paladin_controller.html',1,'CompanionMR']]],
+  ['paladinsizes',['PaladinSizes',['../class_companion_m_r_1_1_paladin_controller.html#a273f91220e0ebb7acfff8d30f157c718',1,'CompanionMR::PaladinController']]],
+  ['panel',['panel',['../class_companion_m_r_1_1_info_board.html#ad81ce65d8d0b9810b95b9501b6f0bce7',1,'CompanionMR::InfoBoard']]],
+  ['panelscaler',['PanelScaler',['../class_companion_m_r_1_1_panel_scaler.html',1,'CompanionMR']]],
+  ['path',['path',['../class_companion_m_r_1_1_data_loader.html#a01c4e58634ae824c7caa3f56c501c4c9',1,'CompanionMR::DataLoader']]],
+  ['path_5fseparator',['PATH_SEPARATOR',['../class_companion_m_r_1_1_data_loader.html#a4ba849055b9e06b13e434a38813d1c0c',1,'CompanionMR::DataLoader']]],
+  ['pausebutton',['pauseButton',['../class_companion_m_r_1_1_video_panel.html#a423a71454af76affce0469bbe2be6044',1,'CompanionMR::VideoPanel']]],
+  ['pauseclicked',['PauseClicked',['../class_companion_m_r_1_1_video_panel.html#a1306c8053345435a6f45227d4ae21534',1,'CompanionMR::VideoPanel']]],
+  ['photocapture',['PhotoCapture',['../class_companion_m_r_1_1_photo_capture.html',1,'CompanionMR.PhotoCapture'],['../class_companion_m_r_1_1_capture_manager.html#a98b06bd5e08173b3bd80f3fff2dc0a35',1,'CompanionMR.CaptureManager.PhotoCapture()']]],
+  ['placementsolver',['PlacementSolver',['../class_companion_m_r_1_1_placement_solver.html',1,'CompanionMR']]],
+  ['playbutton',['playButton',['../class_companion_m_r_1_1_video_panel.html#aba2b1fff53f28a7a1096dfcc7587ce5b',1,'CompanionMR::VideoPanel']]],
+  ['playclicked',['PlayClicked',['../class_companion_m_r_1_1_video_panel.html#abbd9c2eec3d1d977c00576621463c051',1,'CompanionMR::VideoPanel']]],
+  ['port',['port',['../class_companion_m_r_1_1_data_loader.html#ad26cc0e2b3a28ac41d3448bdc63bb98a',1,'CompanionMR::DataLoader']]],
+  ['printanchors',['PrintAnchors',['../class_companion_m_r_1_1_object_recognition.html#ac87ab0800f2bd059abf2ad1e728a146c',1,'CompanionMR::ObjectRecognition']]],
+  ['printmissinganchors',['PrintMissingAnchors',['../class_companion_m_r_1_1_object_recognition.html#a5e54ef3a2e104a84df3bde66c0c5dc77',1,'CompanionMR::ObjectRecognition']]],
+  ['processingstopped',['ProcessingStopped',['../class_companion_m_r_1_1_photo_capture.html#af32d85b3a0dbd8484ffe85be0014344c',1,'CompanionMR::PhotoCapture']]],
+  ['progressslider',['progressSlider',['../class_companion_m_r_1_1_audio_panel.html#aa9bfef54a10be2b89ed245027eb6e20b',1,'CompanionMR.AudioPanel.progressSlider()'],['../class_companion_m_r_1_1_video_panel.html#abd95ef2504cf903a0e4892e090b0d543',1,'CompanionMR.VideoPanel.progressSlider()']]],
+  ['protocol',['protocol',['../class_companion_m_r_1_1_data_loader.html#abec58c77466487024694596c21d6717d',1,'CompanionMR.DataLoader.protocol()'],['../class_companion_m_r_1_1_data_loader.html#a8bf923242f7b6bb2bbadef66d3934456',1,'CompanionMR.DataLoader.Protocol()']]]
+];

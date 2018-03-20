@@ -1,6 +1,0 @@
-<map id="Companion::Processing::ImageProcessing" name="Companion::Processing::ImageProcessing">
-<area shape="rect" id="node2" href="$class_companion_1_1_processing_1_1_detection_1_1_object_detection.html" title="Companion::Processing\l::Detection::ObjectDetection" alt="" coords="228,5,416,47"/>
-<area shape="rect" id="node3" href="$class_companion_1_1_processing_1_1_recognition_1_1_hash_recognition.html" title="Companion::Processing\l::Recognition::HashRecognition" alt="" coords="219,71,425,112"/>
-<area shape="rect" id="node4" href="$class_companion_1_1_processing_1_1_recognition_1_1_hybrid_recognition.html" title="Companion::Processing\l::Recognition::HybridRecognition" alt="" coords="215,136,429,177"/>
-<area shape="rect" id="node5" href="$class_companion_1_1_processing_1_1_recognition_1_1_match_recognition.html" title="Companion::Processing\l::Recognition::MatchRecognition" alt="" coords="216,201,428,243"/>
-</map>

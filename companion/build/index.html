@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.37.1" />
+    <meta name="description" content="Documentation page for Companion">
+<meta name="author" content="Andreas Sekulski, Dimitri Kotlovsky">
+
+    <link rel="shortcut icon" href="https://libcompanion.github.io/CompanionDoc/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="https://libcompanion.github.io/CompanionDoc/images/favicon.png" type="image/x-icon" />
+
+    <title>Build Companion :: Companion</title>
+    
+    
+    <link href="https://libcompanion.github.io/CompanionDoc/css/nucleus.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/font-awesome.min.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/hybrid.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/featherlight.min.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/perfect-scrollbar.min.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/horsey.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/theme.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/hugo-theme.css?1521582981" rel="stylesheet">
+    
+      <link href="https://libcompanion.github.io/CompanionDoc/css/theme-blue.css?1521582981" rel="stylesheet">
+    
+
+    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery-2.x.min.js?1521582981"></script>
+    
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{ 
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/companion/build/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="https://libcompanion.github.io/CompanionDoc"> <img src="https://libcompanion.github.io/CompanionDoc/images/logo.png"> </a>
+
+    </div>
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/companion/" title="Companion" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companion/">
+          Companion
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/companionmr/" title="CompanionMR" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companionmr/">
+          CompanionMR
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/companionwinrt/" title="CompanionWinRT" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companionwinrt/">
+          CompanionWinRT
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/companionwinrt/build/" title="Build CompanionWinRT" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companionwinrt/build/">
+          <i class='fa fa-code' aria-hidden='true'></i> Build CompanionWinRT
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/companionwinrt/gettingstarted/" title="Getting Started" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companionwinrt/gettingstarted/">
+          <i class='fa fa-bicycle' aria-hidden='true'></i> Getting Started
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/docs/" title="Documentation" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/docs/">
+          <i class='fa fa-book' aria-hidden='true'></i> Documentation
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fa fa-heart"></i></a> from <a href="http://getgrav.org">Grav</a> and <a href="http://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable sticky-parent">
+              
+              <div class="sticky-spacer">
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://libcompanion.github.io/CompanionDoc/'>Companion</a> > <a href='https://libcompanion.github.io/CompanionDoc/companion/'>Companion</a> > Build Companion
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#dependencies">Dependencies</a></li>
+<li><a href="#build-from-sources">Build from Sources</a></li>
+<li><a href="#build-companion-with-code-examples">Build Companion with Code Examples</a>
+<ul>
+<li><a href="#build-samples-from-submodule">Build Samples from Submodule</a></li>
+<li><a href="#build-samples-from-project">Build Samples from Project</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Build Companion</h1>
+          
+
+        
+
+
+
+<h2 id="dependencies">Dependencies</h2>
+
+<p>The following libs must be build to use Companion.</p>
+
+<ul>
+<li><a href="http://opencv.org/">OpenCV</a> - 3.X</li>
+<li><a href="https://developer.nvidia.com/cuda-downloads">CUDA</a> (Only for CUDA features)</li>
+</ul>
+
+<h2 id="build-from-sources">Build from Sources</h2>
+
+<p>Simply use CMake or CMake GUI to build Companion for a specific platform.
+Enable the Cuda flag to build Companion with CUDA support. By default the CUDA
+support will not be build.</p>
+
+<pre><code>git clone https://github.com/LibCompanion/Companion.git
+cmake -DCompanion_USE_CUDA=ON/OFF
+make
+make install
+</code></pre>
+
+<h2 id="build-companion-with-code-examples">Build Companion with Code Examples</h2>
+
+<p><a href="https://github.com/LibCompanion/CompanionSamples">Examples</a> are included as
+a submodule or can be referenced via the CMake variable <code>Companion_SAMPLE_MODULE</code>. To build the samples you have to enable the <code>Companion_BUILD_SAMPLES</code> flag.</p>
+
+<h3 id="build-samples-from-submodule">Build Samples from Submodule</h3>
+
+<pre><code>git submodule update --init --recursive
+cmake -DCompanion_BUILD_SAMPLES=ON
+make
+</code></pre>
+
+<h3 id="build-samples-from-project">Build Samples from Project</h3>
+
+<pre><code>git clone https://github.com/LibCompanion/CompanionSamples.git
+cmake -DCompanion_BUILD_SAMPLES=ON -DCompanion_SAMPLE_MODULE=/path/to/CompanionSamples/
+make
+</code></pre>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+
+        
+        <div id="footer">
+          <hr>
+          <p>Copyright &copy; 2016-2018 Andreas Sekulski, Dimitri Kotlovsky.</p>
+        </div>
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="https://libcompanion.github.io/CompanionDoc/companion/" title="Companion"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="https://libcompanion.github.io/CompanionDoc/companion/gettingstarted/" title="Getting Started" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/clipboard.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.jquery.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery.sticky-kit.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/featherlight.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/html5shiv-printshiv.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/highlight.pack.js?1521582981"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/modernizr.custom.71422.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/learn.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/hugo-learn.js?1521582981"></script>
+
+    <link href="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.css?1521582981" type="text/css" rel="stylesheet" />
+    <script src="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.js?1521582981"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>

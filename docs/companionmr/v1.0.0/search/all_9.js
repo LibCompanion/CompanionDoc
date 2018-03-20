@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['icapture',['ICapture',['../interface_companion_m_r_1_1_i_capture.html',1,'CompanionMR']]],
+  ['image',['image',['../class_companion_m_r_1_1_artist.html#a7742bae5974f910f48d12632bb7652e2',1,'CompanionMR.Artist.image()'],['../class_companion_m_r_1_1_artwork.html#af04dd9f92dfc617f33bcfcfbc2dbb5aa',1,'CompanionMR.Artwork.image()'],['../class_companion_m_r_1_1_video.html#a72720495028a3b15f387192298d6024e',1,'CompanionMR.Video.image()'],['../struct_companion_m_r_1_1_result_image.html#a34e534452169da689a46f257444db338',1,'CompanionMR.ResultImage.Image()']]],
+  ['image_5fformat',['IMAGE_FORMAT',['../class_companion_m_r_1_1_data_loader.html#a36bb3b9239ee75aa02fb9b94139e965d',1,'CompanionMR::DataLoader']]],
+  ['imageprocessingmethod',['ImageProcessingMethod',['../class_companion_m_r_1_1_object_recognition.html#a6bd1db0439d6a36423fbdf8291e90c7e',1,'CompanionMR::ObjectRecognition']]],
+  ['inactiverotation',['inactiveRotation',['../class_companion_m_r_1_1_button_flip.html#aa499f818454a483aca8c965337ef8f56',1,'CompanionMR::ButtonFlip']]],
+  ['infoboard',['InfoBoard',['../class_companion_m_r_1_1_info_board.html',1,'CompanionMR.InfoBoard'],['../class_companion_m_r_1_1_recognized_artwork.html#a8f7afcd50bd77bc6e247ceef3fae1324',1,'CompanionMR.RecognizedArtwork.infoBoard()'],['../class_companion_m_r_1_1_display3_d_asset.html#ad445e574db4f1d5741bbf998e88e7fdd',1,'CompanionMR.Display3DAsset.infoboard()']]],
+  ['infoboardplacement',['InfoBoardPlacement',['../class_companion_m_r_1_1_info_board.html#a9cc8cad2ef9e9f85454ddd1e064d4d12',1,'CompanionMR::InfoBoard']]],
+  ['infoboardside',['infoBoardSide',['../class_companion_m_r_1_1_recognized_artwork.html#ac08ccbbd7d1370126d79a3791d6448e7',1,'CompanionMR::RecognizedArtwork']]],
+  ['infobutton',['infoButton',['../class_companion_m_r_1_1_info_board.html#a2ea7c4783b4345af8942bd2333d18f65',1,'CompanionMR::InfoBoard']]],
+  ['infocanvas',['InfoCanvas',['../class_companion_m_r_1_1_info_canvas.html',1,'CompanionMR']]],
+  ['infotext',['infoText',['../class_companion_m_r_1_1_spatial_info.html#ab2813b8e377520498955e915fbdeeac1',1,'CompanionMR.SpatialInfo.infoText()'],['../class_companion_m_r_1_1_info_canvas.html#aa3dd7aa8e1092a003d996ee4fec3011f',1,'CompanionMR.InfoCanvas.infoText()']]],
+  ['initializer',['Initializer',['../class_companion_m_r_1_1_initializer.html',1,'CompanionMR']]],
+  ['initializesolver',['InitializeSolver',['../class_companion_m_r_1_1_placement_solver.html#ac98ef62c92def9c6e784d9c2a54c26c9',1,'CompanionMR::PlacementSolver']]],
+  ['inputmodule',['InputModule',['../class_companion_m_r_1_1_input_module.html',1,'CompanionMR']]],
+  ['instance',['Instance',['../class_companion_m_r_1_1_placement_solver.html#a1fc52e487918d9128959f88cb0a682c5',1,'CompanionMR.PlacementSolver.Instance()'],['../class_companion_m_r_1_1_shape_detection.html#a607738a24f3f731980ef2e9249af6b98',1,'CompanionMR.ShapeDetection.Instance()']]],
+  ['ipaddress',['ipAddress',['../class_companion_m_r_1_1_i_p_config.html#a956cce635a6c37ffe1d44b56ecfb75d4',1,'CompanionMR.IPConfig.ipAddress()'],['../class_companion_m_r_1_1_i_p_config.html#af56eb7ca7b648273b76ed76cbbca85f4',1,'CompanionMR.IPConfig.IpAddress()']]],
+  ['ipconfig',['IPConfig',['../class_companion_m_r_1_1_i_p_config.html',1,'CompanionMR']]],
+  ['isactive',['IsActive',['../class_companion_m_r_1_1_photo_capture.html#a2331df3a4a45229c8918cefca0d026c9',1,'CompanionMR::PhotoCapture']]],
+  ['isdebuglogvisible',['isDebugLogVisible',['../class_companion_m_r_1_1_debug_logger.html#a0dbecd9eb0e617e5372365ba3816ba76',1,'CompanionMR::DebugLogger']]],
+  ['isfpsvisible',['isFPSVisible',['../class_companion_m_r_1_1_debug_logger.html#a640f7af91f51eb55cfba3fecca922104',1,'CompanionMR.DebugLogger.isFPSVisible()'],['../class_companion_m_r_1_1_debug_logger.html#a7024e4530664df2556e59fa298c6151c',1,'CompanionMR.DebugLogger.IsFPSVisible(bool isVisible)']]],
+  ['isready',['IsReady',['../class_companion_m_r_1_1_i_p_config.html#affe32b1c412016b2995034e46d67d90c',1,'CompanionMR::IPConfig']]],
+  ['issolverinitialized',['IsSolverInitialized',['../class_companion_m_r_1_1_placement_solver.html#a1c33291ca3960f28626911f39f8e4b69',1,'CompanionMR::PlacementSolver']]],
+  ['isvalid',['IsValid',['../class_companion_m_r_1_1_recognized_artwork.html#ae1be09a9edc41fab440552b039675c8c',1,'CompanionMR::RecognizedArtwork']]],
+  ['iswaiting',['IsWaiting',['../class_companion_m_r_1_1_photo_capture.html#a471670875f0dd11bfe4adfb695029d8d',1,'CompanionMR::PhotoCapture']]]
+];

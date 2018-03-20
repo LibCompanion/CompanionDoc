@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_companion_1_1_processing_1_1_image_processing.html" title="Companion::Processing\l::ImageProcessing" alt="" coords="5,104,165,145"/>
+<area shape="rect" id="node2" href="$class_companion_1_1_processing_1_1_detection_1_1_object_detection.html" title="Companion::Processing\l::Detection::ObjectDetection" alt="" coords="225,5,412,47"/>
+<area shape="rect" id="node3" href="$class_companion_1_1_processing_1_1_recognition_1_1_hash_recognition.html" title="Companion::Processing\l::Recognition::HashRecognition" alt="" coords="217,71,421,112"/>
+<area shape="rect" id="node4" href="$class_companion_1_1_processing_1_1_recognition_1_1_hybrid_recognition.html" title="Companion::Processing\l::Recognition::HybridRecognition" alt="" coords="213,136,424,177"/>
+<area shape="rect" id="node5" href="$class_companion_1_1_processing_1_1_recognition_1_1_match_recognition.html" title="Companion::Processing\l::Recognition::MatchRecognition" alt="" coords="213,201,424,243"/>
+</map>

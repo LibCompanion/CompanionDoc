@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['getcolorformat',['getColorFormat',['../_companion_utils_8h.html#a04fe33ce8ccf07f2918ca80dd967fc4d',1,'CompanionWinRT::Utils']]],
+  ['getdescription',['getDescription',['../class_companion_win_r_t_1_1_result.html#a778993063a1e2518a6d695b4b87617e7',1,'CompanionWinRT::Result']]],
+  ['geterror',['getError',['../class_companion_win_r_t_1_1_companion_error.html#ac80cf489595e71cf526f06c792a8a49e',1,'CompanionWinRT::CompanionError']]],
+  ['geterrorcode',['getErrorCode',['../_companion_error_8h.html#a823f2874a25b11283a29ae2b72968e55',1,'CompanionWinRT']]],
+  ['getframe',['getFrame',['../class_companion_win_r_t_1_1_result.html#aa2e122c9ab5417a5f314d5b9e4d22bcc',1,'CompanionWinRT::Result']]],
+  ['getid',['getID',['../class_companion_win_r_t_1_1_result.html#a7a2dd2262594f4e42db4aa6a7582d7a6',1,'CompanionWinRT::Result']]],
+  ['getlowerleftcorner',['getLowerLeftCorner',['../class_companion_win_r_t_1_1_frame.html#af3c3d9f62c7305fca8a27da8b473254e',1,'CompanionWinRT::Frame']]],
+  ['getlowerrightcorner',['getLowerRightCorner',['../class_companion_win_r_t_1_1_frame.html#a86df1a8b942749426541b144c77e8b49',1,'CompanionWinRT::Frame']]],
+  ['getmodels',['getModels',['../class_companion_win_r_t_1_1_match_recognition.html#ad56056c39fb6e3d1ba08cf5ae62f866c',1,'CompanionWinRT::MatchRecognition']]],
+  ['getscaling',['getScaling',['../_companion_utils_8h.html#a71d0bdaa38f1ba5a589e315597eacfe0',1,'CompanionWinRT::Utils']]],
+  ['getscore',['getScore',['../class_companion_win_r_t_1_1_result.html#ad46d5a5fbd2e21df220552867c09182a',1,'CompanionWinRT::Result']]],
+  ['getskipframe',['getSkipFrame',['../class_companion_win_r_t_1_1_configuration.html#ac6acc227dde62d03543c550a1bb9d666',1,'CompanionWinRT::Configuration']]],
+  ['getsource',['getSource',['../class_companion_win_r_t_1_1_configuration.html#a1585e6c111403f06ed05e1e0fc6d4f76',1,'CompanionWinRT::Configuration']]],
+  ['gettype',['getType',['../class_companion_win_r_t_1_1_result.html#a9248a0a07b850302a448f43747092a7a',1,'CompanionWinRT::Result']]],
+  ['getupperleftcorner',['getUpperLeftCorner',['../class_companion_win_r_t_1_1_frame.html#ace8d6e50793a8b40b809dd0225b2fce9',1,'CompanionWinRT::Frame']]],
+  ['getupperrightcorner',['getUpperRightCorner',['../class_companion_win_r_t_1_1_frame.html#a13232515ba71e2ab4ba8b80f87fafa2a',1,'CompanionWinRT::Frame']]]
+];

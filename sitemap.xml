@@ -3,11 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://libcompanion.github.io/CompanionDoc/build/</loc>
+    <loc>https://libcompanion.github.io/CompanionDoc/</loc>
   </url>
   
   <url>
-    <loc>https://libcompanion.github.io/CompanionDoc/gettingstarted/</loc>
+    <loc>https://libcompanion.github.io/CompanionDoc/companion/</loc>
+  </url>
+  
+  <url>
+    <loc>https://libcompanion.github.io/CompanionDoc/companion/build/</loc>
+  </url>
+  
+  <url>
+    <loc>https://libcompanion.github.io/CompanionDoc/companion/gettingstarted/</loc>
+  </url>
+  
+  <url>
+    <loc>https://libcompanion.github.io/CompanionDoc/companion/objectdetection/</loc>
+  </url>
+  
+  <url>
+    <loc>https://libcompanion.github.io/CompanionDoc/companionmr/</loc>
+  </url>
+  
+  <url>
+    <loc>https://libcompanion.github.io/CompanionDoc/companionmr/build/</loc>
+  </url>
+  
+  <url>
+    <loc>https://libcompanion.github.io/CompanionDoc/companionmr/gettingstarted/</loc>
+  </url>
+  
+  <url>
+    <loc>https://libcompanion.github.io/CompanionDoc/companionwinrt/</loc>
+  </url>
+  
+  <url>
+    <loc>https://libcompanion.github.io/CompanionDoc/companionwinrt/build/</loc>
+  </url>
+  
+  <url>
+    <loc>https://libcompanion.github.io/CompanionDoc/companionwinrt/gettingstarted/</loc>
   </url>
   
   <url>
@@ -17,14 +53,6 @@
   <url>
     <loc>https://libcompanion.github.io/CompanionDoc/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://libcompanion.github.io/CompanionDoc/</loc>
-  </url>
-  
-  <url>
-    <loc>https://libcompanion.github.io/CompanionDoc/docs/objectdetection/</loc>
   </url>
   
   <url>

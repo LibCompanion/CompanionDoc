@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.37.1" />
+    <meta name="description" content="Documentation page for Companion">
+<meta name="author" content="Andreas Sekulski, Dimitri Kotlovsky">
+
+    <link rel="shortcut icon" href="https://libcompanion.github.io/CompanionDoc/images/favicon.png" type="image/x-icon" />
+<link rel="icon" href="https://libcompanion.github.io/CompanionDoc/images/favicon.png" type="image/x-icon" />
+
+    <title>Object Recognition :: Companion</title>
+    
+    
+    <link href="https://libcompanion.github.io/CompanionDoc/css/nucleus.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/font-awesome.min.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/hybrid.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/featherlight.min.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/perfect-scrollbar.min.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/horsey.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/theme.css?1521582981" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/hugo-theme.css?1521582981" rel="stylesheet">
+    
+      <link href="https://libcompanion.github.io/CompanionDoc/css/theme-blue.css?1521582981" rel="stylesheet">
+    
+
+    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery-2.x.min.js?1521582981"></script>
+    
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left{ 
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/companion/objectdetection/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a href="https://libcompanion.github.io/CompanionDoc"> <img src="https://libcompanion.github.io/CompanionDoc/images/logo.png"> </a>
+
+    </div>
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/companion/" title="Companion" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companion/">
+          Companion
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/companion/build/" title="Build Companion" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companion/build/">
+          <i class='fa fa-code' aria-hidden='true'></i> Build Companion
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/companion/gettingstarted/" title="Getting Started" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companion/gettingstarted/">
+          <i class='fa fa-bicycle' aria-hidden='true'></i> Getting Started
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/companion/objectdetection/" title="Object Recognition" class="dd-item 
+        parent
+        active
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companion/objectdetection/">
+          <i class='fa fa-eye' aria-hidden='true'></i> Object Recognition
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/companionmr/" title="CompanionMR" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companionmr/">
+          CompanionMR
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/companionmr/build/" title="Build CompanionMR" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companionmr/build/">
+          <i class='fa fa-code' aria-hidden='true'></i> Build CompanionMR
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/companionmr/gettingstarted/" title="Getting Started" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companionmr/gettingstarted/">
+          <i class='fa fa-bicycle' aria-hidden='true'></i> Getting Started
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/companionwinrt/" title="CompanionWinRT" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companionwinrt/">
+          CompanionWinRT
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/companionwinrt/build/" title="Build CompanionWinRT" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companionwinrt/build/">
+          <i class='fa fa-code' aria-hidden='true'></i> Build CompanionWinRT
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+    <li data-nav-id="/companionwinrt/gettingstarted/" title="Getting Started" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/companionwinrt/gettingstarted/">
+          <i class='fa fa-bicycle' aria-hidden='true'></i> Getting Started
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/docs/" title="Documentation" class="dd-item 
+        
+        
+        
+        ">
+      <a href="https://libcompanion.github.io/CompanionDoc/docs/">
+          <i class='fa fa-book' aria-hidden='true'></i> Documentation
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fa fa-heart"></i></a> from <a href="http://getgrav.org">Grav</a> and <a href="http://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable sticky-parent">
+              
+              <div class="sticky-spacer">
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://libcompanion.github.io/CompanionDoc/'>Companion</a> > <a href='https://libcompanion.github.io/CompanionDoc/companion/'>Companion</a> > Object Recognition
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#match-recognition">Match Recognition</a></li>
+<li><a href="#image-hashing">Image Hashing</a></li>
+<li><a href="#hybrid-recognition">Hybrid Recognition</a></li>
+<li><a href="#code-examples">Code Examples</a></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+
+        
+        <div id="body-inner">
+          
+            <h1>Object Recognition</h1>
+          
+
+        
+
+
+
+<h2 id="match-recognition">Match Recognition</h2>
+
+<p>This component is an interface for all object recognition methods, for example <a href="http://docs.opencv.org/trunk/dc/dc3/tutorial_py_matcher.html">Feature Matching</a> or <a href="http://docs.opencv.org/3.2.0/de/da9/tutorial_template_matching.html">Template Matching</a> based on OpenCV 3. This interface expects a Companion::Algorithm::Recognition::Matching object that represents a specific matching algorithm. To improve image processing results the images can be scaled to different dimensions. Optionally, a shape detection implementation can be attached to retrieve Regions of Interest (ROI) before applying the matching algorithm.</p>
+
+<pre><code>/**
+ * Match recognition constructor.
+ * @param matchingAlgo Matching algorithm to use, for example feature matching.
+ * @param scaling Scaling to resize an image. Default is 1920x1080.
+ * @param shapeDetection Shape detection algorithm to detect ROI's in images (if not set the whole image will be searched).
+ */
+MatchRecognition(Companion::Algorithm::Recognition::Matching::Matching *matchingAlgo,
+    Companion::SCALING scaling = Companion::SCALING::SCALE_1920x1080,
+    Companion::Algorithm::Detection::ShapeDetection *shapeDetection = nullptr);
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th>Supported Matching Algorithms</th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Feature Matching</td>
+<td><a href="https://libcompanion.github.io/CompanionDoc/docs/companion/v1.0.0/class_companion_1_1_algorithm_1_1_recognition_1_1_matching_1_1_feature_matching.html">Companion::Algorithm::Recognition::Matching::FeatureMatching</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<table>
+<thead>
+<tr>
+<th>Supported Shape Detection Algorithms</th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Shape Detection (configured as a Rectangle Detection)</td>
+<td><a href="https://libcompanion.github.io/CompanionDoc/docs/companion/v1.0.0/class_companion_1_1_algorithm_1_1_detection_1_1_shape_detection.html">Companion::Algorithm::Detection::ShapeDetection</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="image-hashing">Image Hashing</h2>
+
+<p>Use the HashRecognition interface for image hash processing. This interface expects a fixed model size in pixels for searched model resizing. To detect regions of interest a shape detection must be set as well as a supported hashing algorithm, for example Local Sensitive Hashing (LSH).</p>
+
+<pre><code>/**
+ * Hash recognition constructor.
+ * @param modelSize Model size in pixels.
+ * @param shapeDetection Shape detection algorithm to detect ROI's.
+ * @param hashing Hashing algorithm implementation, for example LSH.
+ */
+HashRecognition(cv::Size modelSize,
+    Companion::Algorithm::Detection::ShapeDetection *shapeDetection,
+    Companion::Algorithm::Recognition::Hashing::Hashing *hashing);
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th>Supported Hashing Algorithms</th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Local Sensitive Hashing (LSH)</td>
+<td><a href="https://libcompanion.github.io/CompanionDoc/docs/companion/v1.0.0/class_companion_1_1_algorithm_1_1_recognition_1_1_hashing_1_1_l_s_h.html">Companion::Algorithm::Recognition::Hashing::LSH</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="hybrid-recognition">Hybrid Recognition</h2>
+
+<p>A hybrid approach is implemented to use Image Hashing to search for image models in ROIs and further to verify the recognitions with a feature matcher.</p>
+
+<pre><code>/**
+ * Hybrid recognition constructor.
+ * @param hashRecognition Hash recognition to use.
+ * @param featureMatching Feature matching to verify recognized hashes.
+ * @param resize Resize image factor from 1 to 100 (in percent). 100 is equal to 100% of the original scale.
+ */
+HybridRecognition(Companion::Processing::Recognition::HashRecognition *hashRecognition,
+    Companion::Algorithm::Recognition::Matching::Matching *featureMatching,
+    int resize = 100);
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th>Supported Matching Algorithms</th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Feature Matching</td>
+<td><a href="https://libcompanion.github.io/CompanionDoc/docs/companion/v1.0.0/class_companion_1_1_algorithm_1_1_recognition_1_1_matching_1_1_feature_matching.html">Companion::Algorithm::Recognition::Matching::FeatureMatching</a></td>
+</tr>
+</tbody>
+</table>
+
+<p><br></p>
+
+<table>
+<thead>
+<tr>
+<th>Supported Hashing Algorithms</th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Local Sensitive Hashing (LSH)</td>
+<td><a href="https://libcompanion.github.io/CompanionDoc/docs/companion/v1.0.0/class_companion_1_1_algorithm_1_1_recognition_1_1_hashing_1_1_l_s_h.html">Companion::Algorithm::Recognition::Hashing::LSH</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="code-examples">Code Examples</h2>
+
+<p>Code examples can be found in the <a href="https://github.com/LibCompanion/CompanionSamples">CompanionSamples </a> repository for <b>CPU</b> and <b>Cuda</b> usage.</p>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+        
+        </div> 
+
+        
+        <div id="footer">
+          <hr>
+          <p>Copyright &copy; 2016-2018 Andreas Sekulski, Dimitri Kotlovsky.</p>
+        </div>
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="https://libcompanion.github.io/CompanionDoc/companion/gettingstarted/" title="Getting Started"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="https://libcompanion.github.io/CompanionDoc/companionmr/" title="CompanionMR" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/clipboard.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.jquery.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery.sticky-kit.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/featherlight.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/html5shiv-printshiv.min.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/highlight.pack.js?1521582981"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/modernizr.custom.71422.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/learn.js?1521582981"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/hugo-learn.js?1521582981"></script>
+
+    <link href="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.css?1521582981" type="text/css" rel="stylesheet" />
+    <script src="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.js?1521582981"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  </body>
+</html>

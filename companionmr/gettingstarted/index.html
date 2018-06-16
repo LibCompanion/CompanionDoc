@@ -13,19 +13,19 @@
     <title>Getting Started :: Companion</title>
     
     
-    <link href="https://libcompanion.github.io/CompanionDoc/css/nucleus.css?1521624547" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/font-awesome.min.css?1521624547" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/hybrid.css?1521624547" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/featherlight.min.css?1521624547" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/perfect-scrollbar.min.css?1521624547" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/horsey.css?1521624547" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/theme.css?1521624547" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/hugo-theme.css?1521624547" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/nucleus.css?1529188733" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/font-awesome.min.css?1529188733" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/hybrid.css?1529188733" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/featherlight.min.css?1529188733" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/perfect-scrollbar.min.css?1529188733" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/horsey.css?1529188733" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/theme.css?1529188733" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/hugo-theme.css?1529188733" rel="stylesheet">
     
-      <link href="https://libcompanion.github.io/CompanionDoc/css/theme-blue.css?1521624547" rel="stylesheet">
+      <link href="https://libcompanion.github.io/CompanionDoc/css/theme-blue.css?1529188733" rel="stylesheet">
     
 
-    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery-2.x.min.js?1521624547"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery-2.x.min.js?1529188733"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -414,6 +414,7 @@
 <li><a href="#cached-mapping">Cached Mapping</a></li>
 <li><a href="#live-mapping">Live Mapping</a></li>
 </ul></li>
+<li><a href="#debugging">Debugging</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -464,6 +465,51 @@
 <h3 id="live-mapping">Live Mapping</h3>
 
 <p>Live Mapping is a development mode for administrators. It allows to constantly scan for artworks while simultaneously spatial map the surrounding area at the same time. This mode is not bound to a specific room and does not save any results across restarts. Recognized artworks will not be able to instantiate 3D assets. Furthermore, the actual object recognition method can be changed in the Unity inspector before build. This mode is mostly designed for testing purposes.</p>
+
+<h2 id="debugging">Debugging</h2>
+
+<p>You can use the following preprocessor symbols for debugging purposes.</p>
+
+<table>
+<thead>
+<tr>
+<th>SYMBOL</th>
+<th>EFFECT</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>COMP_DEBUG_LOG</td>
+<td>Display debug log</td>
+</tr>
+
+<tr>
+<td>COMP_DEBUG_RECT</td>
+<td>Display detection rectangles</td>
+</tr>
+
+<tr>
+<td>COMP_DEBUG_RAYS</td>
+<td>Display detection rays</td>
+</tr>
+
+<tr>
+<td>COMP_DEBUG_IMAGE</td>
+<td>Display result images</td>
+</tr>
+
+<tr>
+<td>COMP_DEBUG_ANCHOR</td>
+<td>Display world anchors</td>
+</tr>
+
+<tr>
+<td>COMP_DEBUG_AREA</td>
+<td>Display detection areas</td>
+</tr>
+</tbody>
+</table>
 
 
 <footer class=" footline" >
@@ -712,20 +758,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/clipboard.min.js?1521624547"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.min.js?1521624547"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.jquery.min.js?1521624547"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery.sticky-kit.min.js?1521624547"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/featherlight.min.js?1521624547"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/html5shiv-printshiv.min.js?1521624547"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/highlight.pack.js?1521624547"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/clipboard.min.js?1529188733"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.min.js?1529188733"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.jquery.min.js?1529188733"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery.sticky-kit.min.js?1529188733"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/featherlight.min.js?1529188733"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/html5shiv-printshiv.min.js?1529188733"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/highlight.pack.js?1529188733"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/modernizr.custom.71422.js?1521624547"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/learn.js?1521624547"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/hugo-learn.js?1521624547"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/modernizr.custom.71422.js?1529188733"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/learn.js?1529188733"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/hugo-learn.js?1529188733"></script>
 
-    <link href="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.css?1521624547" type="text/css" rel="stylesheet" />
-    <script src="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.js?1521624547"></script>
+    <link href="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.css?1529188733" type="text/css" rel="stylesheet" />
+    <script src="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.js?1529188733"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

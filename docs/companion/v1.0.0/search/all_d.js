@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['produce',['produce',['../class_companion_1_1_thread_1_1_stream_worker.html#aa5890aa5e0ed81333f2804881479a29c',1,'Companion::Thread::StreamWorker']]]
+  ['objectdetection',['ObjectDetection',['../class_companion_1_1_processing_1_1_detection_1_1_object_detection.html',1,'Companion::Processing::Detection::ObjectDetection'],['../class_companion_1_1_processing_1_1_detection_1_1_object_detection.html#aae01dd78475ee48621ce89846f8e6a75',1,'Companion::Processing::Detection::ObjectDetection::ObjectDetection()']]],
+  ['objecttype',['ObjectType',['../class_companion_1_1_model_1_1_result_1_1_detection_result.html#a55943cf7349d03663b73c6ed683fc0ad',1,'Companion::Model::Result::DetectionResult']]],
+  ['obtainimage',['ObtainImage',['../class_companion_1_1_input_1_1_image.html#ad9cfc1072bfc09836bbe03630c991a68',1,'Companion::Input::Image::ObtainImage()'],['../class_companion_1_1_input_1_1_stream.html#a50ac8d2b65d84522dba8553f8b443371',1,'Companion::Input::Stream::ObtainImage()'],['../class_companion_1_1_input_1_1_video.html#a1620459e64744fba32fabf079db2b52c',1,'Companion::Input::Video::ObtainImage()']]],
+  ['operator_28_29',['operator()',['../struct_companion_1_1_algorithm_1_1_recognition_1_1_hashing_1_1_hashing_1_1_sort_rank.html#a63b168fe91989c13b6eebef4726ce22d',1,'Companion::Algorithm::Recognition::Hashing::Hashing::SortRank']]],
+  ['originx',['OriginX',['../class_companion_1_1_draw_1_1_drawable.html#a3e19e3f0b2045d5e19050d1e6c913188',1,'Companion::Draw::Drawable::OriginX()'],['../class_companion_1_1_draw_1_1_frame.html#a063568160f35134cedc4c10a1ea0c54d',1,'Companion::Draw::Frame::OriginX()'],['../class_companion_1_1_draw_1_1_line.html#a9cdd59010b9c3e87522003cb2209327d',1,'Companion::Draw::Line::OriginX()']]],
+  ['originy',['OriginY',['../class_companion_1_1_draw_1_1_drawable.html#a54b67a599e8bd1a72c1b666e55513c17',1,'Companion::Draw::Drawable::OriginY()'],['../class_companion_1_1_draw_1_1_frame.html#a26f47b9fd280681c3f54effbeaf8674e',1,'Companion::Draw::Frame::OriginY()'],['../class_companion_1_1_draw_1_1_line.html#a7e2c068490652febf12b5ba994c04fae',1,'Companion::Draw::Line::OriginY()']]]
 ];

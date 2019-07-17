@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="generator" content="Hugo 0.37.1" />
+    <meta name="generator" content="Hugo 0.55.6" />
     <meta name="description" content="Documentation page for Companion">
 <meta name="author" content="Andreas Sekulski, Dimitri Kotlovsky">
 
@@ -13,19 +13,19 @@
     <title>Object Recognition :: Companion</title>
     
     
-    <link href="https://libcompanion.github.io/CompanionDoc/css/nucleus.css?1529356836" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/font-awesome.min.css?1529356836" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/hybrid.css?1529356836" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/featherlight.min.css?1529356836" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/perfect-scrollbar.min.css?1529356836" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/horsey.css?1529356836" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/theme.css?1529356836" rel="stylesheet">
-    <link href="https://libcompanion.github.io/CompanionDoc/css/hugo-theme.css?1529356836" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/nucleus.css?1563380595" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/font-awesome.min.css?1563380595" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/hybrid.css?1563380595" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/featherlight.min.css?1563380595" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/perfect-scrollbar.min.css?1563380595" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/horsey.css?1563380595" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/theme.css?1563380595" rel="stylesheet">
+    <link href="https://libcompanion.github.io/CompanionDoc/css/hugo-theme.css?1563380595" rel="stylesheet">
     
-      <link href="https://libcompanion.github.io/CompanionDoc/css/theme-blue.css?1529356836" rel="stylesheet">
+      <link href="https://libcompanion.github.io/CompanionDoc/css/theme-blue.css?1563380595" rel="stylesheet">
     
 
-    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery-2.x.min.js?1529356836"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery-2.x.min.js?1563380595"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -443,9 +443,9 @@
  * @param scaling Scaling to resize an image. Default is 1920x1080.
  * @param shapeDetection Shape detection algorithm to detect ROI's in images (if not set the whole image will be searched).
  */
-MatchRecognition(Companion::Algorithm::Recognition::Matching::Matching *matchingAlgo,
+MatchRecognition(PTR_MATCHING_RECOGNITION matchingAlgo,
     Companion::SCALING scaling = Companion::SCALING::SCALE_1920x1080,
-    Companion::Algorithm::Detection::ShapeDetection *shapeDetection = nullptr);
+    PTR_SHAPE_DETECTION shapeDetection = nullptr);
 </code></pre>
 
 <table>
@@ -493,8 +493,8 @@ MatchRecognition(Companion::Algorithm::Recognition::Matching::Matching *matching
  * @param hashing Hashing algorithm implementation, for example LSH.
  */
 HashRecognition(cv::Size modelSize,
-    Companion::Algorithm::Detection::ShapeDetection *shapeDetection,
-    Companion::Algorithm::Recognition::Hashing::Hashing *hashing);
+    PTR_SHAPE_DETECTION shapeDetection,
+    PTR_HASHING hashing);
 </code></pre>
 
 <table>
@@ -523,8 +523,8 @@ HashRecognition(cv::Size modelSize,
  * @param featureMatching Feature matching to verify recognized hashes.
  * @param resize Resize image factor from 1 to 100 (in percent). 100 is equal to 100% of the original scale.
  */
-HybridRecognition(Companion::Processing::Recognition::HashRecognition *hashRecognition,
-    Companion::Algorithm::Recognition::Matching::Matching *featureMatching,
+HybridRecognition(PTR_HASH_RECOGNITION hashRecognition,
+    PTR_FEATURE_MATCHING featureMatching,
     int resize = 100);
 </code></pre>
 
@@ -812,20 +812,20 @@ HybridRecognition(Companion::Processing::Recognition::HashRecognition *hashRecog
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/clipboard.min.js?1529356836"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.min.js?1529356836"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.jquery.min.js?1529356836"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery.sticky-kit.min.js?1529356836"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/featherlight.min.js?1529356836"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/html5shiv-printshiv.min.js?1529356836"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/highlight.pack.js?1529356836"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/clipboard.min.js?1563380595"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.min.js?1563380595"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/perfect-scrollbar.jquery.min.js?1563380595"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/jquery.sticky-kit.min.js?1563380595"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/featherlight.min.js?1563380595"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/html5shiv-printshiv.min.js?1563380595"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/highlight.pack.js?1563380595"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/modernizr.custom.71422.js?1529356836"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/learn.js?1529356836"></script>
-    <script src="https://libcompanion.github.io/CompanionDoc/js/hugo-learn.js?1529356836"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/modernizr.custom.71422.js?1563380595"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/learn.js?1563380595"></script>
+    <script src="https://libcompanion.github.io/CompanionDoc/js/hugo-learn.js?1563380595"></script>
 
-    <link href="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.css?1529356836" type="text/css" rel="stylesheet" />
-    <script src="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.js?1529356836"></script>
+    <link href="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.css?1563380595" type="text/css" rel="stylesheet" />
+    <script src="https://libcompanion.github.io/CompanionDoc/mermaid/mermaid.js?1563380595"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
